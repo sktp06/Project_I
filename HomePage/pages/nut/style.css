@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: poppins;
+}
+ul,
+nav {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+section {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 100px;
+}
+@media (max-width: 1000px) {
+    section {
+        padding: 100px 50px;
+    }
+}
+@media (max-width: 600px) {
+    section {
+        padding: 125px 30px;
+    }
+}
+section p {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 0 20px;
+    line-height: 2;
+}
+.banner-area {
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+.banner-area .banner-img {
+    background-image: url(https://www.cmu.ac.th/content/organization/b3fdcf68-7543-4710-ace5-645316968bfb/4f69e12b-c71d-48b6-8ddf-97263679d666.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    z-index: -1;
+}
+.banner-area .banner-img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+.banner-area h1 {
+    margin-bottom: 15px;
+    font-size: 65px;
+    font-family: merienda;
+}
+.banner-area h3 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.banner-area a.banner-btn {
+    padding: 15px 35px;
+    background: crimson;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+@media (max-width: 800px) {
+    .banner-area {
+        min-height: 600px;
+    }
+    .banner-area h1 {
+        font-size: 32px;
+    }
+    .banner-area h3 {
+        font-size: 20px;
+    }
+    .banner-area a.banner-btn {
+        padding: 15px 40px;
+    }
+}
+/*grade area*/
+
+/*footer*/
+
+footer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 60px 0;
+}

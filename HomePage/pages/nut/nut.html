@@ -4,11 +4,9 @@
     <head>
         <meta charset="UTF-8" />
         <title>Nutchayaporn Buarom 632115018</title>
-        <link
-            href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
-            rel="stylesheet"
-        />
+        <link rel="stylesheet" />
         <link href="./style.css" rel="stylesheet" />
+        <script src="./script.js" defer></script>
     </head>
     <body>
         <section class="banner-area">
@@ -17,7 +15,16 @@
             <h3>CAMT 632115018</h3>
             <a class="banner-btn" href="#grade">Grade 👇</a>
         </section>
-        <section class="grade-area" id="grade"></section>
+        <section class="grade-area" id="grade">
+            <select name="select-grade" id="select-grade">
+                <option value="0" disabled selected>SELECT SEMESTER</option>
+                <option value="1">1st year, 1st semester</option>
+                <option value="2">1st year, 2nd semester</option>
+                <option value="3">2nd year, 1st semester</option>
+                <option value="4">2nd year, 2nd semester</option>
+            </select>
+            <div id="grade-table"></div>
+        </section>
         <footer>
             <p>Nutchayaporn Buarom 632115018</p>
         </footer>

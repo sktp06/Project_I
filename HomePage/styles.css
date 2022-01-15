@@ -1,0 +1,33 @@
+body {
+    background-image: url(asserts/butterfly-icegif-10.gif);
+}
+
+div.inline{
+    display: inline-block;
+    margin-left: 18%;   
+    margin-top: 50px;
+}
+
+div {
+    display: inline-block;
+    margin-left: 100px;   
+    margin-top: 50px;
+}
+h1 {
+    margin-top: 10%;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.font {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    
+    
+    
+}
